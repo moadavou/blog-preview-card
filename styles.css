@@ -1,0 +1,105 @@
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+}
+
+@font-face {
+    font-family: Figtree;
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Yellow);
+    font-family: Figtree;
+}
+
+.attribution { font-size: 11px; text-align: center; margin: 1rem;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    max-width: 380px;
+    min-height: 520px;
+    border-radius: 15px;
+    background-color: var(--White);
+    box-shadow: 8px 8px var(--Black);
+    border: 1px solid var(--Black);
+    margin: 1rem;
+    transition: box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover, .card:focus { box-shadow: 16px 16px var(--Black); }
+
+.card-content {
+    padding: 1.3rem;
+    flex: 1;
+}
+
+.card-content img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.card-content p { font-size: 1rem; }
+
+.card-content p.category {
+    display: inline-block;
+    background-color: var(--Yellow);
+    padding: 12px 10px;
+    margin-top: 1.3rem;
+    border-radius: 4px;
+    font-weight: 800;
+    color: var(--Black);
+}
+
+.card-content p.date {
+    color: var(--Black);
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.card-content h1 {
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin: 1.3rem 0;
+    transition: color 0.3s ease;
+}
+
+.card-content h1:hover {
+    color: var(--Yellow);
+    cursor: pointer;
+}
+
+.card-content p { color: var(--Grey); }
+
+.card-content .author {
+    display: flex;
+    align-items: center;
+    margin-top: 1.6rem;
+}
+
+.card-content .author img { max-width: 30px; }
+
+.card-content .author p.name {
+    font-weight: 800;
+    padding: 0 0.8rem;
+    color: var(--Black);
+    font-size: 0.9rem;
+}
