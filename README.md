@@ -1,4 +1,4 @@
-This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
@@ -36,6 +36,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- CSS Grid
 - Mobile-first workflow
 
 ### What I learned
@@ -44,8 +45,8 @@ I learned how to use local font files and host the fonts myself instead of using
 
 ```css
 @font-face {
-    font-family: fontname;
-    src: url(...);
+  font-family: fontname;
+  src: url(...);
 }
 ```
 
@@ -53,7 +54,7 @@ I learned how to use local font files and host the fonts myself instead of using
 
 I'm bad at estimating the time it takes for me to complete a project. I tend to do other things, lose focus, or have a difficult time beginning the project.
 
-In the future, I want to improve my focus so I can complete the project closer to the estimated timeframe. 
+In the future, I want to improve my focus so I can complete the project closer to the estimated timeframe.
 
 ## Author
 
